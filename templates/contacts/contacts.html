@@ -1,0 +1,431 @@
+{% extends 'index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block page %}
+
+{% for b in banner %}
+<div
+        class="page-header page-header_align_center"
+        style="background-image: url({{b.image.url}})"
+>
+    <div class="page-header_wrapper">
+        <div class="wgl-container">
+            <div class="page-header_content">
+                <div
+                        class="page-header_title"
+                        style="color: #ffffff; font-size: 42px; line-height: 54px"
+                >
+                    {% trans 'Контакты' %}
+                </div>
+                <div
+                        class="page-header_breadcrumbs"
+                        style="color: #ffffff; font-size: 14px; line-height: 34px"
+                >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<main id="main" class="site-main">
+    <div class="wgl-container">
+        <div class="row sidebar_none">
+            <div id="main-content" class="wgl_col-12">
+                <div
+                        data-elementor-type="wp-page"
+                        data-elementor-id="747"
+                        class="elementor elementor-747"
+                >
+                    <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-26eeb3e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="26eeb3e"
+                            data-element_type="section"
+                    >
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div
+                                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-99a6842"
+                                    data-id="99a6842"
+                                    data-element_type="column"
+                            >
+                                <div
+                                        class="elementor-widget-wrap elementor-element-populated"
+                                >
+                                    <div
+                                            class="elementor-element elementor-element-8a088b9 elementor-widget elementor-widget-spacer"
+                                            data-id="8a088b9"
+                                            data-element_type="widget"
+                                            data-widget_type="spacer.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-spacer">
+                                                <div class="elementor-spacer-inner"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-97246af aleft elementor-widget elementor-widget-wgl-double-heading"
+                                            data-id="97246af"
+                                            data-element_type="widget"
+                                            data-widget_type="wgl-double-heading.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="wgl-double-heading">
+
+                                                <h2 class="dblh__title-wrapper">
+                              <span class="dblh__title dblh__title-1">
+                                Manas National Academy
+                              </span>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                            class="elementor-element elementor-element-050a370 aleft elementor-view-stacked elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-icon-box wgl-icon-box elementor-shape-circle elementor-widget elementor-widget-wgl-info-box"
+                                            data-id="050a370"
+                                            data-element_type="widget"
+                                            data-widget_type="wgl-info-box.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="wgl-infobox">
+                                                <div class="wgl-infobox_wrapper wgl-layout-left">
+                                                    <div class="media-wrapper icon-wrapper">
+                                <span class="wgl-icon"
+                                ><i class="icon elementor-icon bx bxs-map"></i
+                                ></span>
+                                                    </div>
+                                                    <div class="content_wrapper">
+                                                        <div class="wgl-infobox-title_wrapper"></div>
+                                                        <div class="wgl-infobox_content">
+                                                            {{contacts.address|safe}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-f81ab4b aleft elementor-view-stacked elementor-widget__width-initial elementor-widget-mobile__width-inherit hover_links elementor-widget-icon-box wgl-icon-box elementor-shape-circle elementor-widget elementor-widget-wgl-info-box"
+                                            data-id="f81ab4b"
+                                            data-element_type="widget"
+                                            data-widget_type="wgl-info-box.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="wgl-infobox">
+                                                <div class="wgl-infobox_wrapper wgl-layout-left">
+                                                    <div class="media-wrapper icon-wrapper">
+                                <span class="wgl-icon"
+                                ><i
+                                        class="icon elementor-icon bx bxs-phone"
+                                ></i>
+                                </span>
+                                                    </div>
+                                                    <div class="content_wrapper">
+                                                        <div class="wgl-infobox-title_wrapper"></div>
+                                                        <div class="wgl-infobox_content">
+                                                            {{contacts.phone|safe}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-b716d0e aleft elementor-view-stacked elementor-widget__width-initial elementor-widget-mobile__width-inherit hover_links elementor-widget-icon-box wgl-icon-box elementor-shape-circle elementor-widget elementor-widget-wgl-info-box"
+                                            data-id="b716d0e"
+                                            style="margin-top: 10px!important"
+                                            data-element_type="widget"
+                                            data-widget_type="wgl-info-box.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="wgl-infobox">
+                                                <div class="wgl-infobox_wrapper wgl-layout-left">
+                                                    <div class="media-wrapper icon-wrapper">
+                                <span class="wgl-icon"
+                                ><i
+                                        class="icon elementor-icon bx bx-envelope"
+                                ></i>
+                                </span>
+                                                    </div>
+                                                    <div class="content_wrapper">
+                                                        <div class="wgl-infobox-title_wrapper"></div>
+                                                        <div class="wgl-infobox_content">
+                                                            <a href="mail:{{contacts.email}}"
+                                                            >{{contacts.email}}</a
+                                                            >
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-b716d0e aleft elementor-view-stacked elementor-widget__width-initial elementor-widget-mobile__width-inherit hover_links elementor-widget-icon-box wgl-icon-box elementor-shape-circle elementor-widget elementor-widget-wgl-info-box"
+                                            data-id="b716d0e"
+                                            data-element_type="widget"
+                                            data-widget_type="wgl-info-box.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="wgl-infobox">
+                                                {% for s in social %}
+                                                <div
+                                                        class="wgl-social-icons elementor-social-icons-wrapper"
+                                                >
+                                                    <a
+                                                            class="elementor-icon elementor-social-icon elementor-social-icon-telegram-plane elementor-repeater-item"
+                                                            href="{{s.telegram}}"
+                                                            target="_blank"
+                                                            title="Telegram"
+                                                    ><span class="elementor-screen-only"
+                                                    >Telegram-plane</span
+                                                    ><i class="bx bxl-telegram"></i></a
+                                                    ><a
+                                                        class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item"
+                                                        href="{{s.facebook}}"
+                                                        target="_blank"
+                                                        title="Facebook"
+                                                ><span class="elementor-screen-only"
+                                                >Facebook-f</span
+                                                ><i class="bx bxl-facebook-circle"></i></a
+                                                ><a
+                                                        class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item"
+                                                        href="{{s.instagram}}"
+                                                        target="_blank"
+                                                        title="Twitter"
+                                                ><i class="bx bxl-instagram"></i
+                                                ></a>
+                                                    <a
+                                                        class="elementor-icon elementor-social-icon elementor-social-icon-twitter-f elementor-repeater-item"
+                                                        href="{{s.twitter}}"
+                                                        target="_blank"
+                                                        title="Twitter"
+                                                ><span class="elementor-screen-only"
+                                                >Twitter-f</span
+                                                ><i class="bx bxl-twitter"></i></a
+                                                >
+                                                    <a
+                                                        class="elementor-icon elementor-social-icon elementor-social-icon-vk-f elementor-repeater-item"
+                                                        href="{{s.vk}}"
+                                                        target="_blank"
+                                                        title="VK"
+                                                ><span class="elementor-screen-only"
+                                                >VK-f</span
+                                                ><i class="bx bxl-vk"></i></a
+                                                >
+                                                </div>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a86e522"
+                                    data-id="a86e522"
+                                    data-element_type="column"
+                            >
+                                <div
+                                        class="elementor-widget-wrap elementor-element-populated"
+                                >
+                                    <section
+                                            class="elementor-section elementor-inner-section elementor-element elementor-element-1e69a00 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                            data-id="1e69a00"
+                                            data-element_type="section"
+                                    >
+                                        <div
+                                                class="elementor-container elementor-column-gap-default"
+                                        >
+                                            <div
+                                                    class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-973d518"
+                                                    data-id="973d518"
+                                                    data-element_type="column"
+                                                    data-settings='{"background_background":"classic"}'
+                                            >
+                                                <div
+                                                        class="elementor-widget-wrap elementor-element-populated"
+                                                >
+                                                    <div
+                                                            class="elementor-element elementor-element-62f54a2 aleft elementor-widget elementor-widget-wgl-double-heading"
+                                                            data-id="62f54a2"
+                                                            data-element_type="widget"
+                                                            data-widget_type="wgl-double-heading.default"
+                                                    >
+                                                        <div class="elementor-widget-container">
+                                                            <div class="wgl-double-heading">
+                                                                <h2 class="dblh__title-wrapper">
+                                      <span class="dblh__title dblh__title-1"
+                                      >{% trans 'Напишите нам' %}</span
+                                      >
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                            class="elementor-element elementor-element-bbf9347 elementor-widget elementor-widget-text-editor"
+                                                            data-id="bbf9347"
+                                                            data-element_type="widget"
+                                                            data-widget_type="text-editor.default"
+                                                    >
+
+                                                    </div>
+                                                    <div
+                                                            class="elementor-element elementor-element-06ace1c aleft elementor-widget elementor-widget-wgl-contact-form-7"
+                                                            data-id="06ace1c"
+                                                            data-element_type="widget"
+                                                            data-widget_type="wgl-contact-form-7.default"
+                                                    >
+                                                        <div class="elementor-widget-container">
+                                                            <div class="wgl-contact-form-7">
+                                                                <div
+                                                                        role="form"
+                                                                        class="wpcf7"
+                                                                        id="wpcf7-f777-p747-o1"
+                                                                        dir="ltr"
+                                                                        lang="ru"
+                                                                >
+
+
+                                                                    {% if messages %}
+                                                                    {% for message in messages %}
+                                                                    <h4 align="center" style="color: #A7F59D;" {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</h4>
+                                                                    {% endfor %}
+                                                                    {% else %}
+                                                                    {% endif %}
+
+                                                                    <form
+                                                                            action="{% url 'mail' %}"
+                                                                            method="POST"
+                                                                            class="wpcf7-form init"
+                                                                            enctype="multipart/form-data"
+                                                                    >
+
+                                                                        {% csrf_token %}
+                                                                        {% for field in form %}
+                                                                        {{ field.error }}
+                                                                        {% endfor %}
+                                                                        <div class="row">
+                                                                            <div class="wgl_col-12">
+                                            <span
+                                                    class="wpcf7-form-control-wrap label-name"
+                                            >
+                                              <fieldset>
+                                              <input
+                                                      type="text"
+                                                      name="name"
+                                                      size="40"
+                                                      class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                      placeholder="{% trans 'Имя' %}"
+                                                      required=""
+                                              />
+                                                </fieldset>
+                                            </span>
+                                                                            </div>
+                                                                            <div class="wgl_col-12">
+                                            <span
+                                                    class="wpcf7-form-control-wrap label-email"
+                                            >
+                                              <fieldset>
+
+                                              <input
+                                                      type="email"
+                                                      name="email"
+                                                      size="40"
+                                                      required=""
+                                                      class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                                      placeholder="{% trans 'Почта' %}"
+                                              />
+                                                </fieldset>
+
+                                            </span>
+                                                                            </div>
+                                                                            <div class="wgl_col-12">
+                                            <span
+                                                    class="wpcf7-form-control-wrap label-textarea"
+                                            >
+                                              <fieldset>
+                                              <textarea name="text" cols="40" rows="10"
+                                                        class="wpcf7-form-control wpcf7-textarea"
+                                                        placeholder="{% trans 'Текст' %}"></textarea>
+                                              </fieldset>
+
+                                            </span>
+                                                                            </div>
+                                                                            <div class="wgl_col-12">
+                                                                                <input
+                                                                                        type="submit"
+                                                                                        value="{% trans 'Отправить' %}"
+                                                                                        class="wpcf7-form-control has-spinner wpcf7-submit"
+                                                                                /><span
+                                                                                    class="wpcf7-spinner"
+                                                                            ></span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                                class="wpcf7-response-output"
+                                                                                aria-hidden="true"
+                                                                        ></div>
+                                                                    </form>
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-8672429 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                            data-id="8672429"
+                            data-element_type="section"
+                    >
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div
+                                    class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e00fe62"
+                                    data-id="e00fe62"
+                                    data-element_type="column"
+                            >
+                                <div
+                                        class="elementor-widget-wrap elementor-element-populated"
+                                >
+                                    <div
+                                            class="elementor-element elementor-element-afc20b9 elementor-widget elementor-widget-spacer"
+                                            data-id="afc20b9"
+                                            data-element_type="widget"
+                                            data-widget_type="spacer.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-spacer">
+                                                <div class="elementor-spacer-inner"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-5fe56e5 elementor-widget elementor-widget-google_maps"
+                                            data-id="5fe56e5"
+                                            data-element_type="widget"
+                                            data-widget_type="google_maps.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-custom-embed">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-09 12:56+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: main/settings.py:124
+msgid "Russia"
+msgstr "Русский"
+
+#: main/settings.py:125
+msgid "Kyrgyz"
+msgstr "Кыргызча"
+
+#: main/settings.py:126
+msgid "English"
+msgstr "English"
+
+#: templates/about/about.html:19 templates/index.html:262
+#: templates/index.html:496 templates/index.html:882 templates/index.html:1081
+msgid "О нас"
+msgstr "About Us"
+
+#: templates/about/about.html:165
+msgid "Руководство"
+msgstr "Management"
+
+#: templates/archive/archive.html:20 templates/index.html:348
+#: templates/index.html:586 templates/index.html:760 templates/index.html:966
+msgid "Архив"
+msgstr "Archive"
+
+#: templates/archive/archive.html:108 templates/gallery/gallery.html:107
+#: templates/home.html:525 templates/home.html:728
+#: templates/manas/manas.html:114 templates/news/news.html:114
+#: templates/projects/projects.html:114 templates/research/research.html:114
+msgid "Подробнее"
+msgstr "More"
+
+#: templates/contacts/contacts.html:19 templates/index.html:359
+#: templates/index.html:597 templates/index.html:771 templates/index.html:977
+#: templates/index.html:1165
+msgid "Контакты"
+msgstr "Contacts"
+
+#: templates/contacts/contacts.html:249
+msgid "Напишите нам"
+msgstr "Write to us"
+
+#: templates/contacts/contacts.html:311
+msgid "Имя"
+msgstr "Name"
+
+#: templates/contacts/contacts.html:329
+msgid "Почта"
+msgstr "e-mail"
+
+#: templates/contacts/contacts.html:342
+msgid "Текст"
+msgstr "Text"
+
+#: templates/contacts/contacts.html:350
+msgid "Отправить"
+msgstr "Send"
+
+#: templates/gallery/authors.html:87
+msgid "Об авторе"
+msgstr "About the author"
+
+#: templates/gallery/gallery.html:20 templates/index.html:328
+#: templates/index.html:565 templates/index.html:739 templates/index.html:945
+msgid "Галерея"
+msgstr "Gallery"
+
+#: templates/home.html:405
+
+msgid "Недавние исследования"
+msgstr "Recent research"
+
+#: templates/home.html:609
+msgid "Актуальные проекты"
+msgstr "Actual projects"
+
+#: templates/home.html:1239
+msgid "Навигация по сайту"
+msgstr "Site navigation"
+
+#: templates/index.html:252 templates/index.html:486 templates/index.html:674
+#: templates/index.html:872
+msgid "Академия"
+msgstr "Academy"
+
+#: templates/index.html:275 templates/index.html:509 templates/index.html:686
+#: templates/index.html:892 templates/index.html:1122
+#: templates/research/research.html:20
+msgid "Исследования"
+msgstr "Research"
+
+#: templates/index.html:287 templates/index.html:521 templates/index.html:696
+#: templates/index.html:902 templates/index.html:1101
+#: templates/projects/projects.html:20
+msgid "Проекты"
+msgstr "Projects"
+
+#: templates/index.html:296 templates/index.html:531 templates/index.html:706
+#: templates/index.html:912 templates/index.html:1143
+#: templates/news/news.html:20
+msgid "Новости"
+msgstr "News"
+
+#: templates/index.html:305 templates/index.html:541 templates/index.html:716
+#: templates/index.html:922 templates/npa/npa.html:19
+msgid "НПА"
+msgstr "NLA"
+
+#: templates/index.html:318 templates/index.html:555 templates/index.html:729
+#: templates/index.html:935
+msgid "Онлайн журнал"
+msgstr "Magazine"
+
+#: templates/index.html:338 templates/index.html:575 templates/index.html:749
+#: templates/index.html:955 templates/manas/manas.html:20
+msgid "Про Манас"
+msgstr "About Manas"

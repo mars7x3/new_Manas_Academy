@@ -1,0 +1,10 @@
+{
+  "web": {
+    "client_id": "132385013026-82cfve4k5p0dfqfu3djsanj8c1cglu4e.apps.googleusercontent.com",
+    "project_id": "schoolhouse-319706",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "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"
+  }
+}

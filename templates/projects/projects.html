@@ -1,0 +1,143 @@
+
+{% extends 'index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block page %}
+
+{% for b in banner %}
+    <div
+      class="page-header page-header_align_center"
+      style="background-image: url({{b.image.url}})"
+    >
+      <div class="page-header_wrapper">
+        <div class="wgl-container">
+          <div class="page-header_content">
+            <div
+              class="page-header_title"
+              style="color: #ffffff; font-size: 42px; line-height: 54px"
+            >
+              {% trans 'Проекты' %}
+            </div>
+            <div
+              class="page-header_breadcrumbs"
+              style="color: #ffffff; font-size: 14px; line-height: 34px"
+            >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endfor %}
+    <main id="main" class="site-main">
+      <div class="wgl-container">
+        <div class="row sidebar_none">
+          <div id="main-content" class="wgl_col-12">
+            <div
+              data-elementor-type="wp-page"
+              data-elementor-id="466"
+              class="elementor elementor-466"
+            >
+              <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-f470487 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="f470487"
+                data-element_type="section"
+              >
+                <div class="elementor-container elementor-column-gap-default">
+                  <div
+                    class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6d0e0dd"
+                    data-id="6d0e0dd"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-widget-wrap elementor-element-populated"
+                    >
+                      <div
+                        class="elementor-element elementor-element-832fea3 elementor-widget elementor-widget-wgl-blog-hero"
+                        data-id="832fea3"
+                        data-element_type="widget"
+                        data-settings='{"blog_columns":"4"}'
+                        data-widget_type="wgl-blog-hero.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <section class="wgl_cpt_section">
+                            <div class="blog-posts">
+                              <div
+                                class="container-grid row blog_columns-3 grid blog-style-standard"
+                              >
+                                {% for p in project %}
+                                <div class="item wgl_col-4">
+                                  <div
+                                    class="blog-post blog-hero format-standard-image"
+                                  >
+                                    <div class="blog-post_wrapper">
+                                      <div
+                                        class="blog-post_bg_media"
+                                        style="
+                                          background-image: url({{p.image.url}});
+                                        "
+                                      ></div>
+                                      <div class="blog-post_content">
+                                        <a
+                                          href="{% url 'projects' p.pk %}"
+                                          class="media-link image-overlay"
+                                        ></a>
+                                        <div class="blog-post_content-top">
+                                          <span class="post_categories"
+                                            ><span
+                                              ><a
+                                                href="{% url 'projects' p.pk %}"
+                                                >{{p.tag}}</a
+                                              ></span
+                                            ></span
+                                          >
+                                        </div>
+                                        <div class="blog-post_content-bot">
+                                          <div class="post_meta-wrap">
+                                            <div class="meta-data">
+                                              <span class="post_date"
+                                                >{{p.date}}</span
+                                              >
+                                            </div>
+                                          </div>
+                                          <h3 class="blog-post_title">
+                                            <a href="{% url 'projects' p.pk %}"
+                                              >{{p.title}}</a
+                                            >
+                                          </h3>
+                                          <div class="clear"></div>
+                                          <div class="blog-post_footer">
+                                            <div class="read-more-wrap">
+                                              <a
+                                                href="{% url 'projects' p.pk %}"
+                                                class="button-read-more"
+                                                ><span>{% trans 'Подробнее' %}</span
+                                                ><i
+                                                  class="bx bx-chevrons-right read-more-icon"
+                                                ></i>
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                {% endfor %}
+
+
+                              </div>
+                            </div>
+                          </section>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    {% endblock %}

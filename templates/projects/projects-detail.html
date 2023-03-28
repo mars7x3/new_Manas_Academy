@@ -1,0 +1,70 @@
+
+{% extends 'index.html' %}
+{% load static %}
+
+{% block page %}
+    <div
+      class="post_featured_bg"
+      style="
+        background: url('{{project.banner.url}}') center/cover no-repeat;
+        padding-bottom: 50px;
+      "
+    >
+      <div
+        class="blog-post blog_skrollr_init blog-post-single-item format-standard-image"
+        style="padding-top: 310px"
+      >
+        <div
+          class="single_meta post-520 post type-post status-publish format-standard has-post-thumbnail hentry category-technology tag-digital tag-ico tag-nft tag-tech"
+        >
+          <div class="item_wrapper">
+            <div class="blog-post_content">
+              <div class="wgl-container">
+                <div class="row">
+                  <div
+                    class="content-container wgl_col-12 skrollable skrollable-between"
+                    data-center="opacity: 1"
+                    data-310-top="opacity: 1"
+                    data-124-top="opacity: 1"
+                    data--100-top="opacity: 0"
+                    data-anchor-target=".blog-post-single-item .blog-post_content"
+                    style="opacity: 1"
+                  >
+                    <span class="post_categories"
+                      ><span
+                        ><a
+                          href="#"
+                          >{{project.date}}</a
+                        ></span
+                      ></span
+                    >
+                    <h1 class="blog-post_title" style="color: #fff">
+                      {{project.title}}
+                    </h1>
+                    <div class="meta_wrapper">
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main id="main" class="site-main">
+      <div class="elementor elementor-3200">
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-ccaad17 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+        >
+          <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-widget-container" style="color: #fff">
+
+              {{project.text|safe}}
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    {% endblock %}

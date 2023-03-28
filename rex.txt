@@ -1,0 +1,6 @@
+Django
+Pillow==7.1
+psycopg2-binary==2.8.5
+django-modeltranslation
+django-ckeditor
+gunicorn

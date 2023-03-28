@@ -1,0 +1,1779 @@
+<!DOCTYPE html>
+{% load static %}
+{% load i18n %}
+
+<html class="yes-js js_active js" style="scroll-behavior: auto" lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <script>
+         document.documentElement.className =
+           document.documentElement.className + ' yes-js js_active js';
+    </script>
+    <title>Manas National Academy</title>
+    <!-- HTML Meta Tags -->
+    <meta name="description" content="Национальная академия «Манас» и Чингиза Айтматова является самостоятельным юридическим лицом, ведущим научную, воспитательную, культурную, проектную, образовательную, управленческо-хозяйственную и иную деятельность, отвечающим духовным или иным нематериальным потребностям в интересах для всеобщего блага и развития граждан.">
+    {% for l in logo %}
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Manas Aitmatov Academy">
+    <meta itemprop="description" content="Национальная академия «Манас» и Чингиза Айтматова является самостоятельным юридическим лицом, ведущим научную, воспитательную, культурную, проектную, образовательную, управленческо-хозяйственную и иную деятельность, отвечающим духовным или иным нематериальным потребностям в интересах для всеобщего блага и развития граждан.">
+    <meta itemprop="image" content="{{l.logo.url}}">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Manas Aitmatov Academy">
+    <meta property="og:description" content="Национальная академия «Манас» и Чингиза Айтматова является самостоятельным юридическим лицом, ведущим научную, воспитательную, культурную, проектную, образовательную, управленческо-хозяйственную и иную деятельность, отвечающим духовным или иным нематериальным потребностям в интересах для всеобщего блага и развития граждан.">
+    <meta property="og:image" content="{{l.logo.url}}">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="{{l.logo.url}}">
+    <meta name="twitter:title" content="Manas Aitmatov Academy">
+    <meta name="twitter:description" content="Национальная академия «Манас» и Чингиза Айтматова является самостоятельным юридическим лицом, ведущим научную, воспитательную, культурную, проектную, образовательную, управленческо-хозяйственную и иную деятельность, отвечающим духовным или иным нематериальным потребностям в интересах для всеобщего блага и развития граждан.">
+    <meta name="twitter:image" content="{{l.logo.url}}">
+    <link rel="icon" href="{{l.logo.url}}">
+    {% endfor %}
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+    <link rel="stylesheet" href="{% static 'assets/fonts/boxicons/css/boxicons.css' %}"/>
+    <link
+            rel="stylesheet"
+            href="{% static 'assets/fonts/boxicons/css/transformations.css' %}"
+    />
+    <link rel="stylesheet" href="{% static 'assets/fonts/boxicons/css/animations.css' %}"/>
+    <link rel="stylesheet" href="{% static 'assets/fonts/Graphik/style.css' %}"/>
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}"/>
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{% static 'assets/css/e3kwp.css' %}"
+            media="all"
+    />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{% static 'assets/css/e3kwp_008.css' %}"
+            media="all"
+    />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{% static 'assets/css/e3kwp_007.css' %}"
+            media="only screen and (max-width: 767px)"
+    />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{% static 'assets/css/e3kwp_003.css' %}"
+            media="all"
+    />
+    <style id="woocommerce-inline-inline-css" type="text/css">
+         .woocommerce form .form-row .required {
+         visibility: visible;
+         }
+
+
+
+
+    </style>
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{% static 'assets/css/e3kwp_002.css' %}"
+            media="all"
+    />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{% static 'assets/css/e3lkk.css' %}"
+            media="all"
+    />
+    <link
+            rel="stylesheet"
+            id="elementor-post-9-css"
+            href="{% static 'assets/css/post-9.css' %}"
+            type="text/css"
+            media="all"
+    />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{% static 'assets/css/e3kwp_006.css' %}"
+            media="all"
+    />
+    <link
+            rel="stylesheet"
+            id="elementor-post-3200-css"
+            href="{% static 'assets/css/post-3200.css' %}"
+            type="text/css"
+            media="all"
+    />
+    <link
+            rel="stylesheet"
+            id="elementor-post-32-css"
+            href="{% static 'assets/css/post-32.css' %}"
+            type="text/css"
+            media="all"
+    />
+    <link
+            rel="stylesheet"
+            id="elementor-post-3264-css"
+            href="{% static 'assets/css/post-3264.css' %}"
+            type="text/css"
+            media="all"
+    />
+    <link
+            rel="stylesheet"
+            id="elementor-post-216-css"
+            href="{% static 'assets/css/post-216.css' %}"
+            type="text/css"
+            media="all"
+    />
+    <link rel="preload" as="style" href="{% static 'assets/css/css_002.css' %}"/>
+    <link
+            rel="stylesheet"
+            href="{% static 'assets/css/css_002.css' %}"
+            media="all"
+            onload="this.media='all'"
+    />
+    <noscript
+    >
+        <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/css?family=DM%20Sans:400,400,500,700%7CSpace%20Grotesk:700,500,300,400,700&#038;display=swap&#038;ver=1657877836"
+        />
+    </noscript>
+    <link
+            rel="stylesheet"
+            id="google-fonts-1-css"
+            href="{% static 'assets/css/css.css' %}"
+            type="text/css"
+            media="all"
+    />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="{% static 'assets/css/e3kwp_005.css' %}"
+            media="all"
+    />
+    <script
+            type="text/javascript"
+            src="{% static 'assets/js/jquery.min.js' %}"
+            id="jquery-core-js"
+    ></script>
+    <script
+            type="text/javascript"
+            src="{% static 'assets/js/jquery-migrate.min.js' %}"
+            id="jquery-migrate-js"
+    ></script>
+    <noscript
+    >
+        <style>
+            .woocommerce-product-gallery {
+            opacity: 1 !important;
+            }
+
+
+
+
+        </style>
+    </noscript
+    >
+
+</head>
+<body
+        class="home page-template-default page page-id-3200 theme-nico woocommerce-js elementor-default elementor-kit-9 elementor-page elementor-page-3200 e--ua-firefox"
+        data-mobile-width="1200"
+        data-elementor-device-mode="desktop"
+>
+<div id="yith-wcwl-popup-message" style="display: none">
+    <div id="yith-wcwl-message"></div>
+</div>
+
+<header class="wgl-theme-header header_overlap">
+    <div class="wgl-site-header">
+        <div class="container-wrapper">
+            <div
+                    data-elementor-type="wp-post"
+                    data-elementor-id="32"
+                    class="elementor elementor-32"
+            >
+                <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-cbde00d elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default"
+                        data-id="cbde00d"
+                        data-element_type="section"
+                >
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div
+                                class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5aebac7"
+                                data-id="5aebac7"
+                                data-element_type="column"
+                        >
+                            <div
+                                    class="elementor-widget-wrap elementor-element-populated"
+                            >
+                                <div
+                                        class="elementor-element elementor-element-551346b elementor-widget elementor-widget-wgl-header-logo"
+                                        data-id="551346b"
+                                        data-element_type="widget"
+                                        data-widget_type="wgl-header-logo.default"
+                                >
+                                    <div class="elementor-widget-container">
+                                        <div class="wgl-logotype-container default_logo">
+                                            <a href="{% url 'home' %}"
+                                            >
+                                                {% for l in logo %}
+                                                <img
+                                                        class="default_logo"
+                                                        src="{{ l.logo.url }}"
+                                                        alt="logotype"
+                                                        style="height: 100px;"
+                                                />
+                                                {% endfor %}
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ff3e74d"
+                                data-id="ff3e74d"
+                                data-element_type="column"
+                        >
+                            <div
+                                    class="elementor-widget-wrap elementor-element-populated"
+                            >
+                                <div
+                                        class="elementor-element elementor-element-571f10c elementor-widget elementor-widget-wgl-menu"
+                                        data-id="571f10c"
+                                        data-element_type="widget"
+                                        data-widget_type="wgl-menu.default"
+                                >
+                                    <div class="elementor-widget-container">
+                                        <nav class="primary-nav">
+
+                                            <ul id="menu-main-2" class="menu">
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-has-children menu-item-object-page"
+                                                >
+                                                    <a href="#" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Академия' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                    <ul class="sub-menu wgl-submenu-position-default">
+                                                        <li
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                        >
+                                                            <a href="{% url 'about' %}" data-ps2id-api="true"
+                                                            ><span
+                                                            ><span class="item_text">{% trans 'О нас' %}</span
+                                                            ><span class="menu-item_dots"></span
+                                                            ><i class="bx"></i></span
+                                                            ></a>
+                                                        </li>
+                                                        <li
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                        >
+                                                            <a
+                                                                    href="{% url 'research' %}"
+                                                                    data-ps2id-api="true"
+                                                            ><span
+                                                            ><span class="item_text"
+                                                            >{% trans 'Исследования' %}</span
+                                                            ><span class="menu-item_dots"></span
+                                                            ><i class="bx"></i></span
+                                                            ></a>
+                                                        </li>
+                                                        <li
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                        >
+                                                            <a
+                                                                    href="{% url 'projects' %}"
+                                                                    data-ps2id-api="true"
+                                                            ><span
+                                                            ><span class="item_text">{% trans 'Проекты' %}</span
+                                                            ><span class="menu-item_dots"></span
+                                                            ><i class="bx"></i></span
+                                                            ></a>
+                                                        </li>
+                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                        >
+                                                            <a href="{% url 'news' %}" data-ps2id-api="true"
+                                                            ><span
+                                                            ><span class="item_text">{% trans 'Новости' %}</span
+                                                            ><span class="menu-item_dots"></span
+                                                            ><i class="bx"></i></span
+                                                            ></a>
+                                                        </li>
+                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                        >
+                                                            <a href="{% url 'npa' %}" data-ps2id-api="true"
+                                                            ><span
+                                                            ><span class="item_text">{% trans 'НПА' %}</span
+                                                            ><span class="menu-item_dots"></span
+                                                            ><i class="bx"></i></span
+                                                            ></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'home' %}#journal" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Онлайн журнал' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'gallery' %}" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Галерея' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'manas' %}" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Про Манас' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'archive' %}" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Архив' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'contacts' %}" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Контакты' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+                                            </ul>
+
+
+                                            <!-- Preview nav end -->
+                                        </nav>
+
+                                        <div class="mobile-hamburger-toggle">
+                                            <div class="hamburger-box">
+                                                <div class="hamburger-inner"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                                class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-bb928e3"
+                                data-element_type="column"
+                        >
+                            <div
+                                    class="elementor-widget-wrap elementor-element-populated"
+                            >
+                                <div
+                                        class="elementor-element elementor-element-54f0f40 full-height-yes elementor-widget elementor-widget-wgl-header-search"
+                                        data-element_type="widget"
+                                        data-widget_type="wgl-header-search.default"
+                                >
+                                    <div
+                                            class="elementor-widget-container"
+                                            style="width: 60px"
+                                    >
+                                        <form class="language-form" action="{% url 'set_language' %}" method="post">{% csrf_token %}
+									<select name="language" onchange="this.form.submit()">
+										{% get_current_language as LANGUAGE_CODE %}
+										{% get_available_languages as LANGUAGES %}
+										{% get_language_info_list for LANGUAGES as languages %}
+										{% for language in languages %}
+
+											<option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+												{{ language.code }}
+											</option>
+										{% endfor %}
+									</select>
+									</form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="wgl-sticky-header wgl-sticky-element" data-style="scroll_up">
+        <div class="container-wrapper">
+            <div
+                    data-elementor-type="wp-post"
+                    data-elementor-id="3264"
+                    class="elementor elementor-3264"
+            >
+                <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-cbde00d elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default"
+                        data-id="cbde00d"
+                        data-element_type="section"
+                        data-settings='{"background_background":"classic"}'
+                >
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div
+                                class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5aebac7"
+                                data-id="5aebac7"
+                                data-element_type="column"
+                        >
+                            <div
+                                    class="elementor-widget-wrap elementor-element-populated"
+                            >
+                                <div
+                                        class="elementor-element elementor-element-551346b elementor-widget elementor-widget-wgl-header-logo"
+                                        data-id="551346b"
+                                        data-element_type="widget"
+                                        data-widget_type="wgl-header-logo.default"
+                                >
+                                    <div class="elementor-widget-container">
+                                        <div class="wgl-logotype-container default_logo">
+                                            <a href="{% url 'home' %}"
+                                            >{% for l in logo %}
+                                                <img
+                                                        class="default_logo"
+                                                        src="{{ l.logo.url }}"
+                                                        alt="logotype"
+                                                        style="height: 100px;"
+                                                />
+                                                {% endfor %}
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ff3e74d"
+                                data-id="ff3e74d"
+                                data-element_type="column"
+                        >
+                            <div
+                                    class="elementor-widget-wrap elementor-element-populated"
+                            >
+                                <div
+                                        class="elementor-element elementor-element-571f10c elementor-widget elementor-widget-wgl-menu"
+                                        data-id="571f10c"
+                                        data-element_type="widget"
+                                        data-widget_type="wgl-menu.default"
+                                >
+                                    <div class="elementor-widget-container">
+                                        <nav class="primary-nav">
+
+                                            <ul id="menu-main-2" class="menu">
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-has-children menu-item-object-page"
+                                                >
+                                                    <a href="#" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Академия' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                    <ul class="sub-menu wgl-submenu-position-default">
+                                                        <li
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                        >
+                                                            <a href="{% url 'about' %}" data-ps2id-api="true"
+                                                            ><span
+                                                            ><span class="item_text">{% trans 'О нас' %}</span
+                                                            ><span class="menu-item_dots"></span
+                                                            ><i class="bx"></i></span
+                                                            ></a>
+                                                        </li>
+                                                        <li
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                        >
+                                                            <a
+                                                                    href="{% url 'research' %}"
+                                                                    data-ps2id-api="true"
+                                                            ><span
+                                                            ><span class="item_text"
+                                                            >{% trans 'Исследования' %}</span
+                                                            ><span class="menu-item_dots"></span
+                                                            ><i class="bx"></i></span
+                                                            ></a>
+                                                        </li>
+                                                        <li
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                        >
+                                                            <a
+                                                                    href="{% url 'projects' %}"
+                                                                    data-ps2id-api="true"
+                                                            ><span
+                                                            ><span class="item_text">{% trans 'Проекты' %}</span
+                                                            ><span class="menu-item_dots"></span
+                                                            ><i class="bx"></i></span
+                                                            ></a>
+                                                        </li>
+                                                        <li
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                        >
+                                                            <a href="{% url 'news' %}" data-ps2id-api="true"
+                                                            ><span
+                                                            ><span class="item_text">{% trans 'Новости' %}</span
+                                                            ><span class="menu-item_dots"></span
+                                                            ><i class="bx"></i></span
+                                                            ></a>
+                                                        </li>
+                                                        <li
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                        >
+                                                            <a href="{% url 'npa' %}" data-ps2id-api="true"
+                                                            ><span
+                                                            ><span class="item_text">{% trans 'НПА' %}</span
+                                                            ><span class="menu-item_dots"></span
+                                                            ><i class="bx"></i></span
+                                                            ></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'home' %}#journal" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Онлайн журнал' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'gallery' %}" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Галерея' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'manas' %}" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Про Манас' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'archive' %}" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Архив' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'contacts' %}" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Контакты' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+                                            </ul>
+                                            <!-- Preview nav end -->
+                                        </nav>
+                                        <div class="mobile-hamburger-toggle">
+                                            <div class="hamburger-box">
+                                                <div class="hamburger-inner"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                                class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-bb928e3"
+                                data-element_type="column"
+                        >
+                            <div
+                                    class="elementor-widget-wrap elementor-element-populated"
+                            >
+                                <div
+                                        class="elementor-element elementor-element-54f0f40 full-height-yes elementor-widget elementor-widget-wgl-header-search"
+                                        data-element_type="widget"
+                                        data-widget_type="wgl-header-search.default"
+                                >
+                                    <div
+                                            class="elementor-widget-container"
+                                            style="width: 60px"
+                                    >
+                                        <form class="language-form" action="{% url 'set_language' %}" method="post">{% csrf_token %}
+									<select name="language" onchange="this.form.submit()">
+										{% get_current_language as LANGUAGE_CODE %}
+										{% get_available_languages as LANGUAGES %}
+										{% get_language_info_list for LANGUAGES as languages %}
+										{% for language in languages %}
+
+											<option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+												{{ language.code }}
+											</option>
+										{% endfor %}
+									</select>
+									</form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div
+            class="wgl-mobile-header"
+            style="
+            --mobile-header-bg-color: rgba(18, 13, 36, 1);
+            --mobile-header-color: #ffffff;
+            "
+    >
+        <div class="container-wrapper">
+            <div class="wgl-header-row">
+                <div class="wgl-container">
+                    <div class="wgl-header-row_wrapper">
+                        <div class="header_side display_grow h_align_left">
+                            <div class="header_area_container">
+                                <nav class="primary-nav">
+
+                                    <ul id="menu-main-2" class="menu">
+                                        <li
+                                                class="menu-item menu-item-type-post_type menu-item-has-children menu-item-object-page"
+                                        >
+                                            <a href="#" data-ps2id-api="true"
+                                            ><span
+                                            ><span class="item_text">{% trans 'Академия' %}</span
+                                            ><span class="menu-item_dots"></span
+                                            ><i class="bx"></i></span
+                                            ></a>
+                                            <ul class="sub-menu wgl-submenu-position-default">
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a
+                                                            href="{% url 'research' %}"
+                                                            data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Исследования' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'projects' %}" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Проекты' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'news' %}" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'Новости' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+                                                <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page"
+                                                >
+                                                    <a href="{% url 'npa' %}" data-ps2id-api="true"
+                                                    ><span
+                                                    ><span class="item_text">{% trans 'НПА' %}</span
+                                                    ><span class="menu-item_dots"></span
+                                                    ><i class="bx"></i></span
+                                                    ></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li
+                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                        >
+                                            <a href="{% url 'home' %}#journal" data-ps2id-api="true"
+                                            ><span
+                                            ><span class="item_text">{% trans 'Онлайн журнал' %}</span
+                                            ><span class="menu-item_dots"></span
+                                            ><i class="bx"></i></span
+                                            ></a>
+                                        </li>
+                                        <li
+                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                        >
+                                            <a href="{% url 'gallery' %}" data-ps2id-api="true"
+                                            ><span
+                                            ><span class="item_text">{% trans 'Галерея' %}</span
+                                            ><span class="menu-item_dots"></span
+                                            ><i class="bx"></i></span
+                                            ></a>
+                                        </li>
+                                        <li
+                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                        >
+                                            <a href="{% url 'manas' %}" data-ps2id-api="true"
+                                            ><span
+                                            ><span class="item_text">{% trans 'Про Манас' %}</span
+                                            ><span class="menu-item_dots"></span
+                                            ><i class="bx"></i></span
+                                            ></a>
+                                        </li>
+
+                                        <li
+                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                        >
+                                            <a href="{% url 'archive' %}" data-ps2id-api="true"
+                                            ><span
+                                            ><span class="item_text">{% trans 'Архив' %}</span
+                                            ><span class="menu-item_dots"></span
+                                            ><i class="bx"></i></span
+                                            ></a>
+                                        </li>
+
+                                        <li
+                                                class="menu-item menu-item-type-post_type menu-item-object-page"
+                                        >
+                                            <a href="{% url 'contacts' %} data-ps2id-api="true"
+                                            ><span
+                                            ><span class="item_text">{% trans 'Контакты' %}</span
+                                            ><span class="menu-item_dots"></span
+                                            ><i class="bx"></i></span
+                                            ></a>
+                                        </li>
+                                    </ul>
+                                    <!-- Preview nav end -->
+                                </nav>
+                                <div class="hamburger-box">
+                                    <div class="hamburger-inner">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_side display_grow h_align_center">
+                            <div class="header_area_container">
+                                <div class="wgl-logotype-container logo-mobile">
+                                    <a href="{% url 'home'%}"
+                                    >{% for l in logo %}
+                                        <img
+                                                class="default_logo"
+                                                src="{{ l.logo.url }}"
+                                                alt="logotype"
+                                                style="height: 70px;"
+                                        />
+                                        {% endfor %}
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_side display_grow h_align_right">
+                            <div
+                                    class="elementor-widget-wrap elementor-element-populated"
+                            >
+                                <div
+                                        class="elementor-element elementor-element-54f0f40 full-height-yes elementor-widget elementor-widget-wgl-header-search"
+                                        style="display: flex; justify-content: right"
+                                        data-element_type="widget"
+                                        data-widget_type="wgl-header-search.default"
+                                >
+                                    <div
+                                            class="elementor-widget-container"
+                                            style="width: 60px"
+                                    >
+                                        <form class="language-form" action="{% url 'set_language' %}" method="post">{% csrf_token %}
+									<select name="language" onchange="this.form.submit()">
+										{% get_current_language as LANGUAGE_CODE %}
+										{% get_available_languages as LANGUAGES %}
+										{% get_language_info_list for LANGUAGES as languages %}
+										{% for language in languages %}
+
+											<option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+												{{ language.code }}
+											</option>
+										{% endfor %}
+									</select>
+									</form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_nav_wrapper" data-mobile-width="1200">
+                <div class="container-wrapper">
+                    <div class="wgl-menu_overlay"></div>
+                    <div class="wgl-menu_outer">
+                        <div class="wgl-menu-outer_header">
+                            <div class="mobile-hamburger-close">
+                                <div class="hamburger-box">
+                                    <div class="hamburger-inner">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wgl-menu-outer_content">
+                            <nav class="primary-nav">
+                                <div class="wgl-logotype-container logo-menu">
+                                    <a href="{% url 'home' %}"
+                                    >{% for l in logo %}
+                                        <img
+                                                class="default_logo"
+                                                src="{{ l.logo.url }}"
+                                                alt="logotype"
+                                                style="height: 100px;"
+                                        />
+                                        {% endfor %}
+                                    </a>
+                                </div>
+                                <ul id="menu-main-2" class="menu">
+                                    <li
+                                            class="menu-item menu-item-type-post_type menu-item-has-children menu-item-object-page"
+                                    >
+                                        <a href="#" data-ps2id-api="true"
+                                        ><span
+                                        ><span class="item_text">{% trans 'Академия' %}</span
+                                        ><span class="menu-item_dots"></span
+                                        ><i class="bx"></i></span
+                                        ></a>
+                                        <ul class="sub-menu wgl-submenu-position-default">
+                                            <li
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page"
+                                            >
+                                                <a href="{% url 'about' %}" data-ps2id-api="true"
+                                                ><span
+                                                ><span class="item_text">{% trans 'О нас' %}</span
+                                                ><span class="menu-item_dots"></span
+                                                ><i class="bx"></i></span
+                                                ></a>
+                                            </li>
+                                            <li
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page"
+                                            >
+                                                <a href="{% url 'research' %}" data-ps2id-api="true"
+                                                ><span
+                                                ><span class="item_text">{% trans 'Исследования' %}</span
+                                                ><span class="menu-item_dots"></span
+                                                ><i class="bx"></i></span
+                                                ></a>
+                                            </li>
+                                            <li
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page"
+                                            >
+                                                <a href="{% url 'projects' %}" data-ps2id-api="true"
+                                                ><span
+                                                ><span class="item_text">{% trans 'Проекты' %}</span
+                                                ><span class="menu-item_dots"></span
+                                                ><i class="bx"></i></span
+                                                ></a>
+                                            </li>
+                                            <li
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page"
+                                            >
+                                                <a href="{% url 'news' %}" data-ps2id-api="true"
+                                                ><span
+                                                ><span class="item_text">{% trans 'Новости' %}</span
+                                                ><span class="menu-item_dots"></span
+                                                ><i class="bx"></i></span
+                                                ></a>
+                                            </li>
+                                            <li
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page"
+                                            >
+                                                <a href="{% url 'npa' %}" data-ps2id-api="true"
+                                                ><span
+                                                ><span class="item_text">{% trans 'НПА' %}</span
+                                                ><span class="menu-item_dots"></span
+                                                ><i class="bx"></i></span
+                                                ></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page"
+                                    >
+                                        <a href="{% url 'home' %}#journal" data-ps2id-api="true"
+                                        ><span
+                                        ><span class="item_text">{% trans 'Онлайн журнал' %}</span
+                                        ><span class="menu-item_dots"></span
+                                        ><i class="bx"></i></span
+                                        ></a>
+                                    </li>
+                                    <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page"
+                                    >
+                                        <a href="{% url 'gallery' %}" data-ps2id-api="true"
+                                        ><span
+                                        ><span class="item_text">{% trans 'Галерея' %}</span
+                                        ><span class="menu-item_dots"></span
+                                        ><i class="bx"></i></span
+                                        ></a>
+                                    </li>
+                                    <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page"
+                                    >
+                                        <a href="{% url 'manas' %}" data-ps2id-api="true"
+                                        ><span
+                                        ><span class="item_text">{% trans 'Про Манас' %}</span
+                                        ><span class="menu-item_dots"></span
+                                        ><i class="bx"></i></span
+                                        ></a>
+                                    </li>
+
+                                    <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page"
+                                    >
+                                        <a href="{% url 'archive' %}" data-ps2id-api="true"
+                                        ><span
+                                        ><span class="item_text">{% trans 'Архив' %}</span
+                                        ><span class="menu-item_dots"></span
+                                        ><i class="bx"></i></span
+                                        ></a>
+                                    </li>
+
+                                    <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page"
+                                    >
+                                        <a href="{% url 'contacts' %}" data-ps2id-api="true"
+                                        ><span
+                                        ><span class="item_text">{% trans 'Контакты' %}</span
+                                        ><span class="menu-item_dots"></span
+                                        ><i class="bx"></i></span
+                                        ></a>
+                                    </li>
+                                </ul>
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div
+            class="wgl_notices_wrapper stick_home"
+            style="
+            --height: 112px;
+            --sticky-height: 80px;
+            --mobile-sticky-height: 0;
+            opacity: 1;
+            "
+    >
+        <div class="woocommerce-notices-wrapper closable"></div>
+    </div>
+</header>
+
+
+{% block page %} {% endblock %}
+
+
+<footer class="footer clearfix" id="footer">
+    <div class="footer_top-area">
+        <div class="wgl-container">
+            <div class="row-footer">
+                <div
+                        data-elementor-type="wp-post"
+                        data-elementor-id="216"
+                        class="elementor elementor-216"
+                >
+                    <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-3fc5bcf wgl-add-background-text elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="3fc5bcf"
+                            data-element_type="section"
+                            data-settings='{"background_background":"gradient"}'
+                    >
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div
+                                    class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9a99fef"
+                                    data-id="9a99fef"
+                                    data-element_type="column"
+                            >
+                                <div
+                                        class="elementor-widget-wrap elementor-element-populated"
+                                >
+
+                                    <div
+                                            class="elementor-element elementor-element-aa839f4 elementor-widget elementor-widget-spacer"
+                                            data-id="aa839f4"
+                                            data-element_type="widget"
+                                            data-widget_type="spacer.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-spacer">
+                                                <div class="elementor-spacer-inner"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-e99e823 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                            data-id="e99e823"
+                                            data-element_type="widget"
+                                            data-widget_type="divider.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-divider">
+                                                <span class="elementor-divider-separator"> </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-c8e8c3f elementor-widget elementor-widget-spacer"
+                                            data-id="c8e8c3f"
+                                            data-element_type="widget"
+                                            data-widget_type="spacer.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-spacer">
+                                                <div class="elementor-spacer-inner"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-0b6fe4d elementor-widget__width-auto hover_links aleft elementor-widget elementor-widget-wgl-double-heading"
+                                            data-id="0b6fe4d"
+                                            data-element_type="widget"
+                                            data-widget_type="wgl-double-heading.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="wgl-double-heading">
+                                                <a class="dbl__link" href="{% url 'about' %}"
+                                                >
+                                                    <h2 class="dblh__title-wrapper">
+                                                <span class="dblh__title dblh__title-1"
+                                                >{% trans 'О нас' %}</span
+                                                >
+                                                    </h2>
+                                                </a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-7f9e7ef elementor-widget__width-auto hover_links aleft elementor-widget elementor-widget-wgl-double-heading"
+                                            data-id="7f9e7ef"
+                                            data-element_type="widget"
+                                            data-widget_type="wgl-double-heading.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="wgl-double-heading">
+                                                <a class="dbl__link" href="{% url 'projects' %}"
+                                                >
+                                                    <h2 class="dblh__title-wrapper">
+                                                <span class="dblh__title dblh__title-1"
+                                                >{% trans 'Проекты' %}</span
+                                                >
+                                                    </h2>
+                                                </a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                            class="elementor-element elementor-element-1127cd4 elementor-widget__width-auto hover_links aleft elementor-widget elementor-widget-wgl-double-heading"
+                                            data-id="1127cd4"
+                                            data-element_type="widget"
+                                            data-widget_type="wgl-double-heading.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="wgl-double-heading">
+                                                <a class="dbl__link" href="{% url 'research' %}"
+                                                >
+                                                    <h2 class="dblh__title-wrapper">
+                                                <span class="dblh__title dblh__title-1"
+                                                >{% trans 'Исследования' %}</span
+                                                >
+                                                    </h2>
+                                                </a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                            class="elementor-element elementor-element-7f9e7ef elementor-widget__width-auto hover_links aleft elementor-widget elementor-widget-wgl-double-heading"
+                                            data-id="7f9e7ef"
+                                            data-element_type="widget"
+                                            data-widget_type="wgl-double-heading.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="wgl-double-heading">
+                                                <a class="dbl__link" href="{% url 'news' %}"
+                                                >
+                                                    <h2 class="dblh__title-wrapper">
+                                                <span class="dblh__title dblh__title-1"
+                                                >{% trans 'Новости' %}</span
+                                                >
+                                                    </h2>
+                                                </a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div
+                                            class="elementor-element elementor-element-ad9e9d0 elementor-widget__width-auto hover_links aleft elementor-widget elementor-widget-wgl-double-heading"
+                                            data-id="ad9e9d0"
+                                            data-element_type="widget"
+                                            data-widget_type="wgl-double-heading.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="wgl-double-heading">
+                                                <a class="dbl__link" href="{% url 'contacts' %}"
+                                                >
+                                                    <h2 class="dblh__title-wrapper">
+                                                <span class="dblh__title dblh__title-1"
+                                                >{% trans 'Контакты' %}</span
+                                                >
+                                                    </h2>
+                                                </a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-02d0e5a elementor-widget elementor-widget-spacer"
+                                            data-id="02d0e5a"
+                                            data-element_type="widget"
+                                            data-widget_type="spacer.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-spacer">
+                                                <div class="elementor-spacer-inner"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-e91ff57 elementor-widget elementor-widget-text-editor"
+                                            data-id="e91ff57"
+                                            data-element_type="widget"
+                                            data-widget_type="text-editor.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            Copyright © 2022 ASOI STUDIOS
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-9354eeb elementor-widget elementor-widget-spacer"
+                                            data-id="9354eeb"
+                                            data-element_type="widget"
+                                            data-widget_type="spacer.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-spacer">
+                                                <div class="elementor-spacer-inner"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="elementor-element elementor-element-ff66273 elementor-shape-circle elementor-widget elementor-widget-wgl-social-icons"
+                                            data-id="ff66273"
+                                            data-element_type="widget"
+                                            data-widget_type="wgl-social-icons.default"
+                                    >
+                                        <div class="elementor-widget-container">
+                                            <div
+                                                    class="wgl-social-icons elementor-social-icons-wrapper"
+                                            >
+                                                {% for s in social %}
+                                                <a
+                                                        class="elementor-icon elementor-social-icon elementor-social-icon-telegram-plane elementor-repeater-item-61ca096"
+                                                        href="{{s.telegram}}"
+                                                        target="_blank"
+                                                        title="Telegram"
+                                                ><span class="elementor-screen-only"
+                                                >Telegram-plane</span
+                                                ><i class="bx bxl-telegram"></i></a
+                                                ><a
+                                                    class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-9efb64d"
+                                                    href="{{s.facebook}}"
+                                                    target="_blank"
+                                                    title="Facebook"
+                                            ><span class="elementor-screen-only"
+                                            >Facebook-f</span
+                                            ><i class="bx bxl-facebook-circle"></i></a
+                                            ><a
+                                                    class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-62a93a5"
+                                                    href="{{s.instagram}}"
+                                                    target="_blank"
+                                                    title="Instagram"
+                                            ><span class="elementor-screen-only"
+                                            >Instagram</span
+                                            ><i class="bx bxl-instagram"></i
+                                            ></a>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<a href="#" id="scroll_up" class="scroll_up-icon"
+><i class="bx bx-up-arrow-alt"></i
+></a>
+<div class="wgl-canvas-outer">
+    <canvas id="wgl-webgl-fluid" width="1349" height="643"></canvas>
+</div>
+<div
+        id="wgl-cursor"
+        style="transform: translate3d(calc(-50% + 219px), calc(-50% + 12px), 0px)"
+>
+    <div id="wgl-cursor-pointer" class="">
+        <div class="cursor-content cursor-content-image">
+            <img src="{% static 'assets/images/home3-cat-7.jpg' %}" alt="1"/>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+         (function () {
+           var c = document.body.className;
+           c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+           document.body.className = c;
+         })();
+
+
+
+
+</script>
+<link
+        rel="stylesheet"
+        type="text/css"
+        href="{% static 'assets/css/e3kwp_004.css' %}"
+        media="all"
+/>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/jquery.selectBox.min.js' %}"
+        id="jquery-selectBox-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/jquery.prettyPhoto.min.js' %}"
+        id="prettyPhoto-js"
+></script>
+<script type="text/javascript" id="jquery-yith-wcwl-js-extra">
+         /* <![CDATA[ */
+         var yith_wcwl_l10n = {
+           ajax_url: '\/nico\/wp-admin\/admin-ajax.php',
+           redirect_to_cart: 'no',
+           multi_wishlist: '',
+           hide_add_button: '1',
+           enable_ajax_loading: '',
+           ajax_loader_url:
+             'https:\/\/wgl-demo.net\/nico\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg',
+           remove_from_wishlist_after_add_to_cart: '1',
+           is_wishlist_responsive: '1',
+           time_to_close_prettyphoto: '3000',
+           fragments_index_glue: '.',
+           reload_on_found_variation: '1',
+           mobile_media_query: '768',
+           labels: {
+             cookie_disabled:
+               'We are sorry, but this feature is available only if cookies on your browser are enabled.',
+             added_to_cart_message:
+               '<div class="woocommerce-notices-wrapper"><div class="woocommerce-message" role="alert">Product added to cart successfully<\/div><\/div>',
+           },
+           actions: {
+             add_to_wishlist_action: 'add_to_wishlist',
+             remove_from_wishlist_action: 'remove_from_wishlist',
+             reload_wishlist_and_adding_elem_action:
+               'reload_wishlist_and_adding_elem',
+             load_mobile_action: 'load_mobile',
+             delete_item_action: 'delete_item',
+             save_title_action: 'save_title',
+             save_privacy_action: 'save_privacy',
+             load_fragments: 'load_fragments',
+           },
+           nonce: {
+             add_to_wishlist_nonce: '42de335ce3',
+             remove_from_wishlist_nonce: 'a9fe02220d',
+             reload_wishlist_and_adding_elem_nonce: '03008ee4da',
+             load_mobile_nonce: 'ed0c6d403c',
+             delete_item_nonce: '1622a37753',
+             save_title_nonce: '715703f944',
+             save_privacy_nonce: '4f85f5bd9d',
+             load_fragments_nonce: 'c4dfde9c07',
+           },
+         };
+         /* ]]> */
+
+
+
+
+</script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/jquery.yith-wcwl.min.js' %}"
+        id="jquery-yith-wcwl-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/regenerator-runtime.min.js' %}"
+        id="regenerator-runtime-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/wp-polyfill.min.js' %}"
+        id="wp-polyfill-js"
+></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+         /* <![CDATA[ */
+         var wpcf7 = {
+           api: {
+             root: 'https:\/\/wgl-demo.net\/nico\/wp-json\/',
+             namespace: 'contact-form-7\/v1',
+           },
+         };
+         /* ]]> */
+
+
+
+
+</script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/index.js' %}"
+        id="contact-form-7-js"
+></script>
+<script
+        type="text/javascript"
+        id="page-scroll-to-id-plugin-script-js-extra"
+>
+         /* <![CDATA[ */
+         var mPS2id_params = {
+           instances: {
+             mPS2id_instance_0: {
+               selector: "a[href*='#']:not([href='#'])",
+               autoSelectorMenuLinks: 'true',
+               excludeSelector:
+                 "a[href^='#tab-'], a[href^='#tabs-'], a[data-toggle]:not([data-toggle='tooltip']), a[data-slide], a[data-vc-tabs], a[data-vc-accordion], a.screen-reader-text.skip-link",
+               scrollSpeed: 800,
+               autoScrollSpeed: 'true',
+               scrollEasing: 'easeInOutQuint',
+               scrollingEasing: 'easeOutQuint',
+               forceScrollEasing: 'false',
+               pageEndSmoothScroll: 'true',
+               stopScrollOnUserAction: 'false',
+               autoCorrectScroll: 'false',
+               autoCorrectScrollExtend: 'false',
+               layout: 'vertical',
+               offset: '155',
+               dummyOffset: 'false',
+               highlightSelector: '',
+               clickedClass: 'mPS2id-clicked',
+               targetClass: 'mPS2id-target',
+               highlightClass: 'active',
+               forceSingleHighlight: 'true',
+               keepHighlightUntilNext: 'false',
+               highlightByNextTarget: 'false',
+               appendHash: 'false',
+               scrollToHash: 'true',
+               scrollToHashForAll: 'true',
+               scrollToHashDelay: 0,
+               scrollToHashUseElementData: 'true',
+               scrollToHashRemoveUrlHash: 'false',
+               disablePluginBelow: 0,
+               adminDisplayWidgetsId: 'true',
+               adminTinyMCEbuttons: 'true',
+               unbindUnrelatedClickEvents: 'false',
+               unbindUnrelatedClickEventsSelector: '',
+               normalizeAnchorPointTargets: 'false',
+               encodeLinks: 'false',
+             },
+           },
+           total_instances: '1',
+           shortcode_class: '_ps2id',
+         };
+         /* ]]> */
+
+
+
+
+</script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/page-scroll-to-id.min.js' %}"
+        id="page-scroll-to-id-plugin-script-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/jquery.blockUI.min.js' %}"
+        id="jquery-blockui-js"
+></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+         /* <![CDATA[ */
+         var wc_add_to_cart_params = {
+           ajax_url: '\/nico\/wp-admin\/admin-ajax.php',
+           wc_ajax_url: '\/nico\/?wc-ajax=%%endpoint%%',
+           i18n_view_cart: 'View cart',
+           cart_url: 'https:\/\/wgl-demo.net\/nico\/cart\/',
+           is_cart: '',
+           cart_redirect_after_add: 'no',
+         };
+         /* ]]> */
+
+
+
+
+</script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/add-to-cart.min.js' %}"
+        id="wc-add-to-cart-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/js.cookie.min.js' %}"
+        id="js-cookie-js"
+></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+         /* <![CDATA[ */
+         var woocommerce_params = {
+           ajax_url: '\/nico\/wp-admin\/admin-ajax.php',
+           wc_ajax_url: '\/nico\/?wc-ajax=%%endpoint%%',
+         };
+         /* ]]> */
+
+
+
+
+</script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/woocommerce.min.js' %}"
+        id="woocommerce-js"
+></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+         /* <![CDATA[ */
+         var wc_cart_fragments_params = {
+           ajax_url: '\/nico\/wp-admin\/admin-ajax.php',
+           wc_ajax_url: '\/nico\/?wc-ajax=%%endpoint%%',
+           cart_hash_key: 'wc_cart_hash_c41d0d7df1c35904de0f15583e0c6b6f',
+           fragment_name: 'wc_fragments_c41d0d7df1c35904de0f15583e0c6b6f',
+           request_timeout: '5000',
+         };
+         /* ]]> */
+
+
+
+
+</script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/cart-fragments.min.js' %}"
+        id="wc-cart-fragments-js"
+></script>
+<script src="{% static 'assets/js/main.js' %}" id="nico-theme-addons-js-extra"></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/theme-addons.js' %}"
+        id="nico-theme-addons-js"
+></script>
+<script type="text/javascript" id="nico-theme-js-extra">
+         /* <![CDATA[ */
+         var wgl_core = {
+           ajaxurl: 'https:\/\/wgl-demo.net\/nico\/wp-admin\/admin-ajax.php',
+         };
+         /* ]]> */
+
+
+
+
+</script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/theme.js' %}"
+        id="nico-theme-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/wgl_elementor_widgets.js' %}"
+        id="wgl-widgets-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/jquery.appear.js' %}"
+        id="jquery-appear-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/anime.min.js' %}"
+        id="anime-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/imagesloaded.min.js' %}"
+        id="imagesloaded-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/isotope.pkgd.min.js' %}"
+        id="isotope-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/swiper.min.js' %}"
+        id="swiper-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/jarallax.min.js' %}"
+        id="jarallax-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/jarallax-video.min.js' %}"
+        id="jarallax-video-js"
+></script>
+<script type="text/javascript" id="wgl-webgl-fluid-js-extra">
+         /* <![CDATA[ */
+         var webgl_fluid_settings = {
+           color_type: 'random',
+           color: '#2D0D51',
+           resolution: '64',
+           velocity: '2.9',
+           density: '3.2',
+           pressure: '0.54',
+           splat_radius: '0.38',
+           backspace_animation: 'yes',
+         };
+         /* ]]> */
+
+
+
+
+</script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/wgl_webgl_fluid.js' %}"
+        id="wgl-webgl-fluid-js"
+></script>
+<script
+        src="{% static 'assets/js/main2.js' %}"
+        type="text/javascript"
+        id="wgl-parallax-js-extra"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/wgl_elementor_sections.js' %}"
+        id="wgl-parallax-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/webpack.runtime.min.js' %}"
+        id="elementor-webpack-runtime-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/frontend-modules.min.js' %}"
+        id="elementor-frontend-modules-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/waypoints.min.js' %}"
+        id="elementor-waypoints-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/core.min.js' %}"
+        id="jquery-ui-core-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/share-link.min.js' %}"
+        id="share-link-js"
+></script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/dialog.min.js' %}"
+        id="elementor-dialog-js"
+></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+         var elementorFrontendConfig = {
+           environmentMode: {
+             edit: false,
+             wpPreview: false,
+             isScriptDebug: false,
+           },
+           i18n: {
+             shareOnFacebook: 'Share on Facebook',
+             shareOnTwitter: 'Share on Twitter',
+             pinIt: 'Pin it',
+             download: 'Download',
+             downloadImage: 'Download image',
+             fullscreen: 'Fullscreen',
+             zoom: 'Zoom',
+             share: 'Share',
+             playVideo: 'Play Video',
+             previous: 'Previous',
+             next: 'Next',
+             close: 'Close',
+           },
+           is_rtl: false,
+           breakpoints: { xs: 0, sm: 480, md: 768, lg: 1201, xl: 1440, xxl: 1600 },
+           responsive: {
+             breakpoints: {
+               mobile: {
+                 label: 'Mobile',
+                 value: 767,
+                 default_value: 767,
+                 direction: 'max',
+                 is_enabled: true,
+               },
+               mobile_extra: {
+                 label: 'Mobile Extra',
+                 value: 880,
+                 default_value: 880,
+                 direction: 'max',
+                 is_enabled: false,
+               },
+               tablet: {
+                 label: 'Tablet',
+                 value: 1200,
+                 default_value: 1024,
+                 direction: 'max',
+                 is_enabled: true,
+               },
+               tablet_extra: {
+                 label: 'Tablet Extra',
+                 value: 1200,
+                 default_value: 1200,
+                 direction: 'max',
+                 is_enabled: false,
+               },
+               laptop: {
+                 label: 'Laptop',
+                 value: 1366,
+                 default_value: 1366,
+                 direction: 'max',
+                 is_enabled: false,
+               },
+               widescreen: {
+                 label: 'Widescreen',
+                 value: 2400,
+                 default_value: 2400,
+                 direction: 'min',
+                 is_enabled: false,
+               },
+             },
+           },
+           version: '3.6.6',
+           is_static: false,
+           experimentalFeatures: {
+             e_dom_optimization: true,
+             a11y_improvements: true,
+             e_import_export: true,
+             additional_custom_breakpoints: true,
+             e_hidden_wordpress_widgets: true,
+             'landing-pages': true,
+             'elements-color-picker': true,
+             'favorite-widgets': true,
+             'admin-top-bar': true,
+           },
+           urls: {
+             assets:
+               'https:\/\/wgl-demo.net\/nico\/wp-content\/plugins\/elementor\/assets\/',
+           },
+           settings: { page: [], editorPreferences: [] },
+           kit: {
+             viewport_tablet: 1200,
+             active_breakpoints: ['viewport_mobile', 'viewport_tablet'],
+             global_image_lightbox: 'yes',
+             lightbox_enable_counter: 'yes',
+             lightbox_enable_fullscreen: 'yes',
+             lightbox_enable_zoom: 'yes',
+             lightbox_enable_share: 'yes',
+             lightbox_title_src: 'title',
+             lightbox_description_src: 'description',
+           },
+           post: {
+             id: 3200,
+             title: 'Nico%20%E2%80%93%20WebGeniusLab',
+             excerpt: '',
+             featuredImage: false,
+           },
+         };
+
+
+
+
+</script>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/frontend.min.js' %}"
+        id="elementor-frontend-js"
+></script>
+<span id="elementor-device-mode" class="elementor-screen-only"></span>
+<script
+        type="text/javascript"
+        src="{% static 'assets/js/preloaded-modules.min.js' %}"
+        id="preloaded-modules-js"
+></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+        integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+></script>
+<svg style="display: none" class="e-font-icon-svg-symbols"></svg>
+</body>
+</html>

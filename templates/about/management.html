@@ -1,0 +1,106 @@
+{% extends 'index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block page %}
+
+    <div
+      class="page-header page-header_align_center"
+      style="background-image: url({{banner.image.url}}) center/cover no-repeat"
+    >
+      <div class="page-header_wrapper">
+        <div class="wgl-container">
+          <div class="page-header_content">
+            <div
+              class="page-header_title"
+              style="color: #ffffff; font-size: 42px; line-height: 54px"
+            >
+
+            </div>
+            <div
+              class="page-header_breadcrumbs"
+              style="color: #ffffff; font-size: 14px; line-height: 34px"
+            >
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main id="main" class="site-main">
+      <div class="wgl-container">
+        <div class="row sidebar_none">
+          <div id="main-content" class="wgl_col-12">
+            <div
+              data-elementor-type="wp-page"
+              data-elementor-id="714"
+              class="elementor elementor-714"
+            >
+              <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-16b53d5 elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="16b53d5"
+                data-element_type="section"
+              >
+                <div
+                  class="elementor-container"
+                  style="column-gap: 40px; padding: 0 15px"
+                >
+                  <div
+                    class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-772f10a"
+                    data-id="772f10a"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-widget-wrap elementor-element-populated"
+                    >
+                      <div
+                        class="elementor-element elementor-element-2801910 elementor-widget elementor-widget-spacer"
+                        data-id="2801910"
+                        data-element_type="widget"
+                        data-widget_type="spacer.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <div class="elementor-spacer">
+                            <div class="elementor-spacer-inner"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-element elementor-element-812fad1 aleft elementor-widget elementor-widget-wgl-double-heading"
+                        data-id="812fad1"
+                        data-element_type="widget"
+                        data-widget_type="wgl-double-heading.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <div class="wgl-double-heading">
+                            <div class="dblh__subtitle">
+                              <span>{{management.position}}</span>
+                            </div>
+                            <h2 class="dblh__title-wrapper">
+                              <span class="dblh__title dblh__title-1">
+                                {{management.name}}
+                              </span>
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-element elementor-element-22cee13 elementor-widget elementor-widget-text-editor"
+                        data-id="22cee13"
+                        data-element_type="widget"
+                        data-widget_type="text-editor.default"
+                      >
+                        <div class="elementor-widget-container">
+                          {{management.text|safe}}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+   {% endblock %}
